@@ -54,7 +54,7 @@ If a guardrail is triggered, the workflow stops and requires manual review.
 - `llm/notebooks/` - language-model dataset preparation and fine-tuning notebooks
 - `llm/models/` - model artefacts
 - `openclaw/` - OpenClaw skill and deterministic orchestration scripts
-- `reports/` - supporting project evidence and documentation
+- `IT8532 - Emily Vartha A2 - 2026.docx` - Final assessment report and implementation evidence
 
 ## Machine Learning Model
 
@@ -97,9 +97,7 @@ The prototype contains no tool or code path for these destructive actions.
 
 ## Large Model Files
 
-Large GGUF model files are not included in the Git repository because of their size.
-
-The project documentation contains evidence of the GGUF export and deployment. The trained LoRA adapter is retained separately in the project model directory.
+Large GGUF model files are not included in the Git repository because of their size. The project documentation contains evidence of GGUF export and deployment. The trained LoRA adapter is included as 'llm/models/shredr_qwen_lora_adapter.zip'
 
 ## Important Limitations
 
