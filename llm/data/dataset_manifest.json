@@ -1,0 +1,29 @@
+{
+  "dataset_name": "SHREDR AI Instruction Dataset",
+  "purpose": "Fine-tuning a language model to generate malware triage reports",
+  "total_examples": 217,
+  "construction": "Synthetic instruction-response examples constructed specifically for the SHREDR AI assessment prototype.",
+  "input_fields": [
+    "classification",
+    "malware_probability",
+    "decision_threshold",
+    "file_size_group",
+    "maximum_entropy",
+    "digitally_signed"
+  ],
+  "target_output": [
+    "risk_assessment",
+    "evidence_interpretation",
+    "recommended_action"
+  ],
+  "split": {
+    "training": 160,
+    "validation": 20,
+    "test": 20
+  },
+  "random_seed": 42,
+  "external_personal_data": false,
+  "malware_binaries_included": false,
+  "licensing_note": "No third-party text corpus is redistributed in this dataset. Examples were constructed for this project.",
+  "ai_assistance_note": "Generative AI assisted with dataset template and example construction; this use must be disclosed/cited according to course requirements."
+}

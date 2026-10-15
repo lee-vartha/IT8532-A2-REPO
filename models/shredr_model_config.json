@@ -1,0 +1,10 @@
+{
+  "decision_threshold": 0.1,
+  "positive_class": 1,
+  "positive_class_name": "malware",
+  "negative_class": 0,
+  "negative_class_name": "benign",
+  "false_positive_cost": 1,
+  "false_negative_cost": 10,
+  "feature_count": 242
+}

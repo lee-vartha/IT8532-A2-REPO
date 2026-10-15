@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+*.gguf
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*token*
+credentials.json
+secrets.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
